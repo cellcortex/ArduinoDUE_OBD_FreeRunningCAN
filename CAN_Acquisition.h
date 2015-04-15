@@ -25,6 +25,16 @@
 //if implementing a query-response protocol (such as OBD2), delay this long (mS) in between requests
 #define  QUERY_MS 100  
 
+// XXX this is weird (especially the 16 bit types are looking plain wrong -
+//                    shouldnt they be short?)
+typedef unsigned int       UINT16;
+typedef signed int         SINT16;
+typedef unsigned char      UINT8;
+typedef signed long        SINT32;
+typedef unsigned long      UINT32;
+typedef signed long long   SINT64;
+typedef unsigned long long UINT64;
+
 /**
  *	forward declare the OBD class to the base class to support circular reference
  */

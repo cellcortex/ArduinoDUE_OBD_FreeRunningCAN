@@ -247,14 +247,6 @@ extern USARTClass Serial3;
 #define SERIAL_PORT_HARDWARE2       Serial2
 #define SERIAL_PORT_HARDWARE3       Serial3
 
-typedef unsigned int       UINT16;
-typedef signed int         SINT16;
-typedef unsigned char      UINT8;
-typedef signed long        SINT32;
-typedef unsigned long      UINT32;
-typedef signed long long   SINT64;
-typedef unsigned long long UINT64;
-
 
 
 #endif /* _VARIANT_ARDUINO_DUE_X_ */
